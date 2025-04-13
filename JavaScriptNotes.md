@@ -314,11 +314,8 @@ Page reflects changes
 
 > "Learning JavaScript is like learning to talk to the web — one function at a time."
 
-```
 
-Here’s a clear and concise explanation of those JavaScript concepts, with real-life examples and usage notes:
-
----
+-----
 
 ## 🧠 JavaScript Fundamentals: Key Concepts
 
