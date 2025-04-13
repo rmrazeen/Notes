@@ -387,7 +387,7 @@ person1.sayHello();
 
 ---  
 
-**End of Document**  
+ 
 
 ---  
 
@@ -402,7 +402,7 @@ Would you like any section expanded further? 😊
 
 ## Classes & OOP
 
-### 6. Class Syntax
+### 21. Class Syntax
 ```javascript
 class Person {
   constructor(name, age) {
@@ -423,7 +423,7 @@ person1.greet(); // "Hello, I'm Alice"
 
 ## Prototypes
 
-### 7. Prototype Inheritance
+### 22. Prototype Inheritance
 ```javascript
 function Animal(name) {
   this.name = name;
@@ -448,7 +448,7 @@ dog.speak(); // "Rex makes a noise."
 
 ## Constructor Functions
 
-### 8. Constructor Pattern
+### 23. Constructor Pattern
 ```javascript
 function Car(make, model) {
   this.make = make;
@@ -466,7 +466,7 @@ myCar.drive(); // "Driving Toyota Camry"
 
 ## Set & Map
 
-### 9. Set (Unique Values)
+### 24. Set (Unique Values)
 ```javascript
 let set = new Set();
 set.add(1);
@@ -475,7 +475,7 @@ set.add(1); // Duplicate ignored
 console.log(set.size); // 2
 ```
 
-### 10. Map (Key-Value Pairs)
+### 25. Map (Key-Value Pairs)
 ```javascript
 let map = new Map();
 map.set("name", "Alice");
@@ -487,7 +487,7 @@ console.log(map.get("name")); // "Alice"
 
 ## Asynchronous JS
 
-### 11. Promises
+### 26. Promises
 ```javascript
 function fetchData() {
   return new Promise((resolve, reject) => {
@@ -502,7 +502,7 @@ fetchData()
   .catch(err => console.error(err));
 ```
 
-### 12. Async/Await
+### 27. Async/Await
 ```javascript
 async function getData() {
   try {
@@ -518,7 +518,7 @@ async function getData() {
 
 ## DOM Manipulation
 
-### 13. Query Selectors
+### 28. Query Selectors
 ```javascript
 let button = document.querySelector("#btn");
 button.addEventListener("click", () => {
@@ -526,7 +526,7 @@ button.addEventListener("click", () => {
 });
 ```
 
-### 14. Create & Append Elements
+### 29. Create & Append Elements
 ```javascript
 let div = document.createElement("div");
 div.textContent = "Hello, DOM!";
