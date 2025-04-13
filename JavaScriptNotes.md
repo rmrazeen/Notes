@@ -316,10 +316,11 @@ Page reflects changes
 
 ```
 
+Here’s a clear and concise explanation of those JavaScript concepts, with real-life examples and usage notes:
 
-------
+---
 
-## 🧠 JavaScript Fundamentals: Basic
+## 🧠 JavaScript Fundamentals: Key Concepts
 
 ### 1. **Loops**
 
@@ -457,6 +458,10 @@ let cart = [
 let total = cart.reduce((sum, product) => sum + product.price, 0);
 console.log("Total: $" + total); // Total: $85
 ```
+
+---
+
+Would you like some practice exercises based on these? I can give you some step-by-step tasks to test your skills.
 
 ---
 
